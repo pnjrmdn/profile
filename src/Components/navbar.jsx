@@ -1,14 +1,14 @@
 import { useState } from "react";
 import Alpine from "alpinejs";
 
-Alpine.data('scrollToElement', () => ({
+Alpine.data("scrollToElement", () => ({
   scrollTo(targetId) {
     const target = document.getElementById(targetId);
 
     if (target) {
       window.scrollTo({
         top: target.offsetTop,
-        behavior: 'smooth',
+        behavior: "smooth",
       });
     }
   },
@@ -17,8 +17,6 @@ Alpine.data('scrollToElement', () => ({
 Alpine.start();
 
 const Navbar = () => {
-
-
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => {
@@ -32,41 +30,93 @@ const Navbar = () => {
             <div className="relative flex items-center justify-between h-16">
               <div className="flex items-center px-2 lg:px-0">
                 <div className="flex-shrink-0">
-                <div>
-            <a href="/">
-              <img src="/img/logo_purple.png" class="w-17 h-17" alt="logo image" />
-            </a>
-          </div>
-                  
+                  <div>
+                    <a href="/">
+                      <img
+                        src="/img/logo_purple.png"
+                        class="w-17 h-17"
+                        alt="logo image"
+                      />
+                    </a>
+                  </div>
                 </div>
               </div>
               <div className="hidden lg:block">
                 <div className="ml-4 flex items-center space-x-4">
-                  <div x-data="{ count: 0 }">
+                  {/* <div x-data="{ count: 0 }">
                     <button x-on:click="count++">Increment</button>
                     <span x-text="count"></span>
-                  </div>
+                  </div> */}
 
                   <span
-                    className="text-primary hover:text-primary cursor-pointer"
+                    className="text-primary hover:text-black cursor-pointer group-hover:text-yellow"
+                    x-data="scrollToElement()"
+                    x-on:click="scrollTo('about')"
+                  >
+                    About
+                  </span>
+
+                  <span
+                    className="text-primary hover:text-black cursor-pointer"
                     x-data="scrollToElement()"
                     x-on:click="scrollTo('services')"
                   >
-                    Scroll to Services
+                    Services
                   </span>
-   
-                  <a
-                    href="#"
-                    className="text-primary hover:text-primary px-3 py-2 rounded-md text-sm font-medium"
+
+                  <span
+                    className="text-primary hover:text-black cursor-pointer"
+                    x-data="scrollToElement()"
+                    x-on:click="scrollTo('portofolio')"
+                  >
+                    Portofolio
+                  </span>
+
+                  <span
+                    className="text-primary hover:text-black cursor-pointer"
+                    x-data="scrollToElement()"
+                    x-on:click="scrollTo('clients')"
+                  >
+                    Clients
+                  </span>
+
+                  <span
+                    className="text-primary hover:text-black cursor-pointer"
+                    x-data="scrollToElement()"
+                    x-on:click="scrollTo('work')"
+                  >
+                    Work
+                  </span>
+
+                  <span
+                    className="text-primary hover:text-black cursor-pointer"
+                    x-data="scrollToElement()"
+                    x-on:click="scrollTo('statistics')"
+                  >
+                    Statistics
+                  </span>
+
+                  <span
+                    className="text-primary hover:text-black cursor-pointer"
+                    x-data="scrollToElement()"
+                    x-on:click="scrollTo('Blog')"
+                  >
+                    Blog
+                  </span>
+
+                  <span
+                    className="text-primary hover:text-black cursor-pointer"
+                    x-data="scrollToElement()"
+                    x-on:click="scrollTo('Contact')"
                   >
                     Contact
-                  </a>
+                  </span>
                 </div>
               </div>
               <div className="lg:hidden">
                 <button
                   type="button"
-                  className="bg-gray-800 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-primary hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                  className="bg-gray-800 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-black hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                   onClick={toggleMobileMenu}
                   aria-controls="mobile-menu"
                   aria-expanded={isMobileMenuOpen}
@@ -115,25 +165,80 @@ const Navbar = () => {
             className={`${isMobileMenuOpen ? "block" : "hidden"} lg:hidden`}
             id="mobile-menu"
           >
-            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 text-center">
-              <a
-                href="#"
-                className="text-primary hover:text-primary block px-3 py-2 rounded-md text-base font-medium"
-              >
-                Profile
-              </a>
-              <a
-                href="#"
-                className="text-primary hover:text-primary block px-3 py-2 rounded-md text-base font-medium"
-              >
-                About
-              </a>
-              <a
-                href="#"
-                className="text-primary hover:text-primary block px-3 py-2 rounded-md text-base font-medium"
-              >
-                Contact
-              </a>
+            <div className="bg-primary divide-y divide-white divide-solid px-2 pt-2 pb-1 space-y-1 sm:px-3 text-center">
+              <div>
+                <span
+                  className="text-white hover:text-yellow cursor-pointer group-hover:text-yellow"
+                  x-data="scrollToElement()"
+                  x-on:click="scrollTo('about')"
+                >
+                  About
+                </span> 
+              </div>
+              <div>
+                <span
+                  className="text-white hover:text-yellow cursor-pointer group-hover:text-yellow"
+                  x-data="scrollToElement()"
+                  x-on:click="scrollTo('Services')"
+                >
+                  Services
+                </span> 
+              </div>
+             <div>
+              <span
+                  className="text-white hover:text-yellow cursor-pointer group-hover:text-yellow"
+                  x-data="scrollToElement()"
+                  x-on:click="scrollTo('portofolio')"
+                >
+                  Portofolio
+                </span>
+             </div>
+              <div>
+                <span
+                  className="text-white hover:text-yellow cursor-pointer group-hover:text-yellow"
+                  x-data="scrollToElement()"
+                  x-on:click="scrollTo('clients')"
+                >
+                  Clients
+                </span>
+              </div>
+             <div>
+              <span
+                  className="text-white hover:text-yellow cursor-pointer group-hover:text-yellow"
+                  x-data="scrollToElement()"
+                  x-on:click="scrollTo('work')"
+                >
+                  Work
+                </span>
+             </div>
+              <div>
+                <span
+                  className="text-white hover:text-yellow cursor-pointer group-hover:text-yellow"
+                  x-data="scrollToElement()"
+                  x-on:click="scrollTo('statistics')"
+                >
+                  Statistics
+                </span>
+              </div>
+              <div>
+                <span
+                  className="text-white hover:text-yellow cursor-pointer group-hover:text-yellow"
+                  x-data="scrollToElement()"
+                  x-on:click="scrollTo('blog')"
+                >
+                  Blog
+                </span>
+              </div>
+              <div>
+                <span
+                  className="text-white hover:text-yellow cursor-pointer group-hover:text-yellow"
+                  x-data="scrollToElement()"
+                  x-on:click="scrollTo('contact')"
+                >
+                  Contact
+                </span>
+              </div>
+
             </div>
           </div>
         </nav>
