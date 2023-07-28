@@ -34,7 +34,7 @@ const Navbar = () => {
                     <a href="/">
                       <img
                         src="/img/logo_purple.png"
-                        class="w-17 h-17"
+                        className="w-17 h-17"
                         alt="logo image"
                       />
                     </a>
@@ -50,7 +50,9 @@ const Navbar = () => {
 
                   <span
                     className="text-primary hover:text-black cursor-pointer group-hover:text-yellow"
+                    // eslint-disable-next-line react/no-unknown-property
                     x-data="scrollToElement()"
+                    // eslint-disable-next-line react/no-unknown-property
                     x-on:click="scrollTo('about')"
                   >
                     About
@@ -58,7 +60,9 @@ const Navbar = () => {
 
                   <span
                     className="text-primary hover:text-black cursor-pointer"
+                    // eslint-disable-next-line react/no-unknown-property
                     x-data="scrollToElement()"
+                    // eslint-disable-next-line react/no-unknown-property
                     x-on:click="scrollTo('services')"
                   >
                     Services
@@ -66,7 +70,9 @@ const Navbar = () => {
 
                   <span
                     className="text-primary hover:text-black cursor-pointer"
+                    // eslint-disable-next-line react/no-unknown-property
                     x-data="scrollToElement()"
+                    // eslint-disable-next-line react/no-unknown-property
                     x-on:click="scrollTo('portofolio')"
                   >
                     Portofolio
@@ -74,7 +80,9 @@ const Navbar = () => {
 
                   <span
                     className="text-primary hover:text-black cursor-pointer"
+                    // eslint-disable-next-line react/no-unknown-property
                     x-data="scrollToElement()"
+                    // eslint-disable-next-line react/no-unknown-property
                     x-on:click="scrollTo('clients')"
                   >
                     Clients
@@ -82,7 +90,9 @@ const Navbar = () => {
 
                   <span
                     className="text-primary hover:text-black cursor-pointer"
+                    // eslint-disable-next-line react/no-unknown-property
                     x-data="scrollToElement()"
+                    // eslint-disable-next-line react/no-unknown-property
                     x-on:click="scrollTo('work')"
                   >
                     Work
@@ -90,7 +100,9 @@ const Navbar = () => {
 
                   <span
                     className="text-primary hover:text-black cursor-pointer"
+                    // eslint-disable-next-line react/no-unknown-property
                     x-data="scrollToElement()"
+                    // eslint-disable-next-line react/no-unknown-property
                     x-on:click="scrollTo('statistics')"
                   >
                     Statistics
@@ -98,7 +110,9 @@ const Navbar = () => {
 
                   <span
                     className="text-primary hover:text-black cursor-pointer"
+                    // eslint-disable-next-line react/no-unknown-property
                     x-data="scrollToElement()"
+                    // eslint-disable-next-line react/no-unknown-property
                     x-on:click="scrollTo('Blog')"
                   >
                     Blog
@@ -106,7 +120,9 @@ const Navbar = () => {
 
                   <span
                     className="text-primary hover:text-black cursor-pointer"
+                    // eslint-disable-next-line react/no-unknown-property
                     x-data="scrollToElement()"
+                    // eslint-disable-next-line react/no-unknown-property
                     x-on:click="scrollTo('Contact')"
                   >
                     Contact
@@ -169,7 +185,9 @@ const Navbar = () => {
               <div>
                 <span
                   className="text-white hover:text-yellow cursor-pointer group-hover:text-yellow"
+                  // eslint-disable-next-line react/no-unknown-property
                   x-data="scrollToElement()"
+                  // eslint-disable-next-line react/no-unknown-property
                   x-on:click="scrollTo('about')"
                 >
                   About
@@ -178,7 +196,9 @@ const Navbar = () => {
               <div>
                 <span
                   className="text-white hover:text-yellow cursor-pointer group-hover:text-yellow"
+                  // eslint-disable-next-line react/no-unknown-property
                   x-data="scrollToElement()"
+                  // eslint-disable-next-line react/no-unknown-property
                   x-on:click="scrollTo('Services')"
                 >
                   Services
@@ -187,7 +207,9 @@ const Navbar = () => {
              <div>
               <span
                   className="text-white hover:text-yellow cursor-pointer group-hover:text-yellow"
+                  // eslint-disable-next-line react/no-unknown-property
                   x-data="scrollToElement()"
+                  // eslint-disable-next-line react/no-unknown-property
                   x-on:click="scrollTo('portofolio')"
                 >
                   Portofolio
@@ -196,7 +218,9 @@ const Navbar = () => {
               <div>
                 <span
                   className="text-white hover:text-yellow cursor-pointer group-hover:text-yellow"
+                  // eslint-disable-next-line react/no-unknown-property
                   x-data="scrollToElement()"
+                  // eslint-disable-next-line react/no-unknown-property
                   x-on:click="scrollTo('clients')"
                 >
                   Clients
@@ -205,7 +229,9 @@ const Navbar = () => {
              <div>
               <span
                   className="text-white hover:text-yellow cursor-pointer group-hover:text-yellow"
+                  // eslint-disable-next-line react/no-unknown-property
                   x-data="scrollToElement()"
+                  // eslint-disable-next-line react/no-unknown-property
                   x-on:click="scrollTo('work')"
                 >
                   Work
@@ -214,7 +240,9 @@ const Navbar = () => {
               <div>
                 <span
                   className="text-white hover:text-yellow cursor-pointer group-hover:text-yellow"
+                  // eslint-disable-next-line react/no-unknown-property
                   x-data="scrollToElement()"
+                  // eslint-disable-next-line react/no-unknown-property
                   x-on:click="scrollTo('statistics')"
                 >
                   Statistics
@@ -223,7 +251,9 @@ const Navbar = () => {
               <div>
                 <span
                   className="text-white hover:text-yellow cursor-pointer group-hover:text-yellow"
+                  // eslint-disable-next-line react/no-unknown-property
                   x-data="scrollToElement()"
+                  // eslint-disable-next-line react/no-unknown-property
                   x-on:click="scrollTo('blog')"
                 >
                   Blog
@@ -232,7 +262,9 @@ const Navbar = () => {
               <div>
                 <span
                   className="text-white hover:text-yellow cursor-pointer group-hover:text-yellow"
+                  // eslint-disable-next-line react/no-unknown-property
                   x-data="scrollToElement()"
+                  // eslint-disable-next-line react/no-unknown-property
                   x-on:click="scrollTo('contact')"
                 >
                   Contact

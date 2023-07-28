@@ -5,8 +5,8 @@ const Journey = () => {
                 <h2 className="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
                     My work experience
                 </h2>
-                <h3 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
-                    Download My CV.pdf
+                <h3 className="pt-6 text-center uppercase font-header text-xl font-medium text-primary sm:text-2xl lg:text-3xl">
+                    Download My CV
                 </h3>
 
                 <div className="relative mx-auto mt-12 flex w-full flex-col lg:w-2/3">
@@ -16,7 +16,7 @@ const Journey = () => {
                         <div className="md:w-2/5">
                             <div className="flex justify-center md:justify-start">
                                 <span className="shrink-0">
-                                    <img src="/img/logo-spotify.svg" className="h-auto w-32" alt="company logo" />
+                                    <img src="/img/tsel.png" className="h-20" alt="company logo" />
                                 </span>
                                 <div className="relative ml-3 hidden w-full md:block">
                                     <span className="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
@@ -49,7 +49,7 @@ const Journey = () => {
                         <div className="md:w-2/5">
                             <div className="flex justify-center md:justify-start">
                                 <span className="shrink-0">
-                                    <img src="/img/logo-microsoft.svg" className="h-auto w-32" alt="company logo" />
+                                    <img src="/img/sgm.png" className="h-20" alt="company logo" />
                                 </span>
                                 <div className="relative ml-3 hidden w-full md:block">
                                     <span className="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
@@ -81,7 +81,7 @@ const Journey = () => {
                         <div className="md:w-2/5">
                             <div className="flex justify-center md:justify-start">
                                 <span className="shrink-0">
-                                    <img src="/img/logo-fedex.svg" className="h-auto w-32" alt="company logo" />
+                                    <img src="/img/dinas.png" className="h-20" alt="company logo" />
                                 </span>
                                 <div className="relative ml-3 hidden w-full md:block">
                                     <span className="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
@@ -116,7 +116,7 @@ const Journey = () => {
                         <div className="md:w-2/5">
                             <div className="flex justify-center md:justify-start">
                                 <span className="shrink-0">
-                                    <img src="/img/logo-fedex.svg" className="h-auto w-32" alt="company logo" />
+                                <img src="/img/dinas.png" className="h-20" alt="company logo" />
                                 </span>
                                 <div className="relative ml-3 hidden w-full md:block">
                                     <span className="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
@@ -149,7 +149,7 @@ const Journey = () => {
                         <div className="md:w-2/5">
                             <div className="flex justify-center md:justify-start">
                                 <span className="shrink-0">
-                                    <img src="/img/logo-fedex.svg" className="h-auto w-32" alt="company logo" />
+                                    <img src="/img/rskd.png" className="h-20" alt="company logo" />
                                 </span>
                                 <div className="relative ml-3 hidden w-full md:block">
                                     <span className="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
@@ -182,7 +182,7 @@ const Journey = () => {
                         <div className="md:w-2/5">
                             <div className="flex justify-center md:justify-start">
                                 <span className="shrink-0">
-                                    <img src="/img/logo-fedex.svg" className="h-auto w-32" alt="company logo" />
+                                    <img src="/img/fiver.png" className="h-20" alt="company logo" />
                                 </span>
                                 <div className="relative ml-3 hidden w-full md:block">
                                     <span className="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
