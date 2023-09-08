@@ -2,12 +2,12 @@ const Contact = () => {
 return(
     <>
 
-    <div className="container py-16 md:py-20" id="contact">
-<h2 className="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
-  Here's a contact form
-</h2>
+    <div className="container dark:bg-slate py-8 md:py-8" >
+    <h2 className="text-center text-2xl font-semibold uppercase text-primary sm:text-3xl lg:text-5xl">
+        Here my contact
+    </h2>
 
-<div className="flex flex-col pt-16 lg:flex-row">
+<div className="flex flex-col pt-6 lg:flex-row">
   <div className="w-full border-l-2 border-t-2 border-r-2 border-b-2 border-grey-60 px-6 py-6 sm:py-8 lg:w-1/3">
     <div className="flex items-center">
       <i className="bx bx-phone text-2xl text-grey-40"></i>
@@ -15,7 +15,7 @@ return(
         My WhastApp Phone
       </p>
     </div>
-    <div className="grid grid-cols-2">
+    <div className="grid grid-cols-2" id="kontak">
       <div>
         <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg">
           Telkosmel 
@@ -40,7 +40,6 @@ return(
     </div>
     <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg">
       panjiramadanu55@gmail.com 
-      panjiramadanu55@proton.me
     </p>
   </div>
   <div
@@ -52,8 +51,7 @@ return(
       </p>
     </div>
     <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg">
-      Jl Tata Praja Blok H 1 Rt 23 No. 5 Kelurahan Sepinggan Baru Kota Balikpapan Selatan Provinsi Kalimantan
-      Timur
+      Jl Mulawarman Gunung Tembak Kelurahan Teritip Kota Balikpapan Timur
     </p>
   </div>
 </div>

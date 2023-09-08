@@ -5,9 +5,9 @@ const Journey = () => {
                 <h2 className="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
                     My work experience
                 </h2>
-                <h3 className="pt-6 text-center uppercase font-header text-xl font-medium text-primary sm:text-2xl lg:text-3xl">
+                {/* <h3 className="pt-6 text-center uppercase font-header text-xl font-medium text-primary sm:text-2xl lg:text-3xl">
                     Download My CV
-                </h3>
+                </h3> */}
 
                 <div className="relative mx-auto mt-12 flex w-full flex-col lg:w-2/3">
                     <span className="left-2/5 absolute inset-y-0 ml-10 hidden w-0.5 bg-grey-40 md:block"></span>
@@ -31,14 +31,13 @@ const Journey = () => {
                                 <div className="mt-1 flex">
                                     <i className="bx bxs-right-arrow hidden text-primary md:block"></i>
                                     <div className="md:-mt-1 md:pl-8">
-                                        <span className="block font-body font-bold text-grey-40">Apr 2015 - Mar 2018</span>
-                                        <span className="block pt-2 font-header text-xl font-bold uppercase text-primary">Web Developer &
-                                            Database Administrator</span>
+                                        <span className="block font-body font-bold text-grey-40">Feb 2022 - Jun 2023 · 1 yr 5 mos</span>
+                                        <span className="block pt-2 font-header text-xl font-bold uppercase dark:text-yellow text-primary">Data Engineer & Web Dev</span>
                                         <div className="pt-2">
-                                            <span className="block font-body text-black">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                                elit.
-                                                Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac
-                                                venenatis enim.</span>
+                                            <span className="dark:text-white block font-body text-black">
+                                            <b>Telkomsel under PT Infomedia Nusantara</b> <br />
+                                            Contract 
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -64,13 +63,13 @@ const Journey = () => {
                                 <div className="mt-1 flex">
                                     <i className="bx bxs-right-arrow hidden text-primary md:block"></i>
                                     <div className="md:-mt-1 md:pl-8">
-                                        <span className="block font-body font-bold text-grey-40">Mar 2018 - September 2019</span>
-                                        <span className="block pt-2 font-header text-xl font-bold uppercase text-primary">Web Developer</span>
+                                        <span className="block font-body font-bold text-grey-40">Jul 2021 - Dec 2021 · 6 mos</span>
+                                        <span className="block pt-2 font-header text-xl font-bold uppercase dark:text-yellow text-primary">Web Developer</span>
                                         <div className="pt-2">
-                                            <span className="block font-body text-black">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                                elit.
-                                                Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac
-                                                venenatis enim.</span>
+                                            <span className="dark:text-white block font-body text-black">
+                                             <b>PT Surabya Global Medika</b> <br />
+                                             Project - Web Application Product Liisting and Company Profile
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -96,14 +95,16 @@ const Journey = () => {
                                 <div className="mt-1 flex">
                                     <i className="bx bxs-right-arrow hidden text-primary md:block"></i>
                                     <div className="md:-mt-1 md:pl-8">
-                                        <span className="block font-body font-bold text-grey-40">October 2019 - Feb 2021</span>
-                                        <span className="block pt-2 font-header text-xl font-bold uppercase text-primary">IT Support & Web
+                                        <span className="block font-body font-bold text-grey-40">Jul 2021 - Jan 2022 · 7 mos
+                                        </span>
+                                        <span className="block pt-2 font-header text-xl font-bold uppercase dark:text-yellow text-primary">IT Support & Web
                                             Developer</span>
                                         <div className="pt-2">
-                                            <span className="block font-body text-black">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                                elit.
-                                                Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac
-                                                venenatis enim.</span>
+                                            <span className="dark:text-white block font-body text-black">
+                                            <b>Dinas Penanaman Modal dan Pelayanan Terpadu</b> <br />
+                                            Contract
+
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -131,13 +132,13 @@ const Journey = () => {
                                 <div className="mt-1 flex">
                                     <i className="bx bxs-right-arrow hidden text-primary md:block"></i>
                                     <div className="md:-mt-1 md:pl-8">
-                                        <span className="block font-body font-bold text-grey-40">October 2019 - Feb 2021</span>
-                                        <span className="block pt-2 font-header text-xl font-bold uppercase text-primary">Web Developer</span>
+                                        <span className="block font-body font-bold text-grey-40">Mar 2021 - Aug 2021 · 6 mos</span>
+                                        <span className="block pt-2 font-header text-xl font-bold uppercase dark:text-yellow text-primary">Web Developer</span>
                                         <div className="pt-2">
-                                            <span className="block font-body text-black">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                                elit.
-                                                Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac
-                                                venenatis enim.</span>
+                                            <span className="dark:text-white block font-body text-black">
+                                                <b>Dinas Pertanian Kota Balikpapan</b> <br />
+                                                Project - Web Application Agricultural Group Data Information System
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -164,13 +165,13 @@ const Journey = () => {
                                 <div className="mt-1 flex">
                                     <i className="bx bxs-right-arrow hidden text-primary md:block"></i>
                                     <div className="md:-mt-1 md:pl-8">
-                                        <span className="block font-body font-bold text-grey-40">October 2019 - Feb 2021</span>
-                                        <span className="block pt-2 font-header text-xl font-bold uppercase text-primary">Thesis</span>
+                                        <span className="block font-body font-bold text-grey-40"> Jun 2019 - Jul 2019 · 2 mos </span>
+                                        <span className="block pt-2 font-header text-xl font-bold uppercase dark:text-yellow text-primary">UI/UX</span>
                                         <div className="pt-2">
-                                            <span className="block font-body text-black">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                                elit.
-                                                Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac
-                                                venenatis enim.</span>
+                                            <span className="dark:text-white block font-body text-black">
+                                            <b>RSKD (Dr. Kanujoso Djatiwibowo)</b> <br />
+                                            Internship - Created document SRS, SDD, STD and Prototype
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -197,13 +198,13 @@ const Journey = () => {
                                 <div className="mt-1 flex">
                                     <i className="bx bxs-right-arrow hidden text-primary md:block"></i>
                                     <div className="md:-mt-1 md:pl-8">
-                                        <span className="block font-body font-bold text-grey-40">October 2019 - Feb 2021</span>
-                                        <span className="block pt-2 font-header text-xl font-bold uppercase text-primary">Internship</span>
+                                        <span className="block font-body font-bold text-grey-40">Jan 2016 - Apr 2019 · 3 yrs 4 mos</span>
+                                        <span className="block pt-2 font-header text-xl font-bold uppercase dark:text-yellow text-primary">Internship</span>
                                         <div className="pt-2">
-                                            <span className="block font-body text-black">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                                elit.
-                                                Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac
-                                                venenatis enim.</span>
+                                            <span className="dark:text-white block font-body text-black">
+                                            Freelance make WPAP (Wedha Pop Art Potrait) & Illustration use Corel Draw 
+
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -213,12 +214,12 @@ const Journey = () => {
                 </div>
             </div>
 
-            <div className="bg-grey-50" id="blog">
+            <div className="bg-grey-50 dark:bg-slate" id="blog">
                 <div className="container py-16 md:py-20">
-                    <h2 className="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
+                    <h2 className="text-center font-header text-2xl font-semibold uppercase text-primary sm:text-3xl lg:text-5xl">
                         I also like to design WPAP
                     </h2>
-                    <h4 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
+                    <h4 className="dark:text-white pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
                         Check out my latest design on Behance.
                     </h4>
                     <div className="mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
@@ -228,16 +229,16 @@ const Journey = () => {
                                 className="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72"
                             >
                                 <span className="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
-                                <span className="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">
+                                {/* <span className="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">
                                     View
-                                </span>
+                                </span> */}
                             </div>
-                            <div className="bg-white py-6 px-5 xl:py-8">
-                                <span className="block font-body text-lg font-semibold text-black">
-                                    How to become a frontend developer
+                            <div className="bg-white dark:bg-slate2nd py-6 px-5 xl:py-8">
+                                <span className="dark:text-yellow block font-body text-lg font-semibold text-black">
+                                    Wedha Pop Art
                                 </span>
-                                <span className="block pt-2 font-body text-grey-20">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                <span className="dark:text-white block pt-2 font-body text-grey-20">
+                                    People on Picture Agung Hapsyah
                                 </span>
                             </div>
                         </a>
@@ -247,16 +248,16 @@ const Journey = () => {
                                 className="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72"
                             >
                                 <span className="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
-                                <span className="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">
+                                {/* <span className="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">
                                     View
-                                </span>
+                                </span> */}
                             </div>
-                            <div className="bg-white py-6 px-5 xl:py-8">
-                                <span className="block font-body text-lg font-semibold text-black">
-                                    My personal productivity system
+                            <div className="dark:bg-slate2nd bg-white py-6 px-5 xl:py-8">
+                                <span className="dark:text-yellow block font-body text-lg font-semibold text-black">
+                                Wedha Pop Art
                                 </span>
-                                <span className="block pt-2 font-body text-grey-20">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                <span className="dark:text-white block pt-2 font-body text-grey-20">
+                                People on Picture Martin Garix
                                 </span>
                             </div>
                         </a>
@@ -266,24 +267,22 @@ const Journey = () => {
                                 className="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72"
                             >
                                 <span className="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
-                                <span className="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">
+                                {/* <span className="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">
                                     View
-                                </span>
+                                </span> */}
                             </div>
-                            <div className="bg-white py-6 px-5 xl:py-8">
-                                <span className="block font-body text-lg font-semibold text-black">
-                                    My year in review 2020
+                            <div className="dark:bg-slate2nd bg-white py-6 px-5 xl:py-8">
+                                <span className="dark:text-yellow block font-body text-lg font-semibold text-black">
+                                Wedha Pop Art
                                 </span>
-                                <span className="block pt-2 font-body text-grey-20">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                <span className="dark:text-white block pt-2 font-body text-grey-20">
+                                People on Picture Calum Hood
                                 </span>
                             </div>
                         </a>
                     </div>
                 </div>
             </div>
-
-
 
 
 
