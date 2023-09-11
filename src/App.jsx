@@ -30,7 +30,7 @@ function App(){
 
   return (
     <>
-    <div className='dark:bg-slate'>
+    <div className='dark:bg-slate2nd'>
       <link rel="stylesheet" href="/styles/main.min.css" />
       <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
 

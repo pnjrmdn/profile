@@ -1,8 +1,9 @@
 const Contact = () => {
 return(
     <>
-
-    <div className="container dark:bg-slate py-8 md:py-8" >
+    
+<div className="px-10 dark:bg-slate" >
+    <div className="dark:bg-slate py-8 md:py-8" >
     <h2 className="text-center text-2xl font-semibold uppercase text-primary sm:text-3xl lg:text-5xl">
         Here my contact
     </h2>
@@ -15,15 +16,15 @@ return(
         My WhastApp Phone
       </p>
     </div>
-    <div className="grid grid-cols-2" id="kontak">
+    <div className="grid grid-cols-2" >
       <div>
-        <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg">
+        <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg dark:text-yellow">
           Telkosmel 
           081346828499
         </p>
       </div>
       <div>
-        <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg">
+        <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg dark:text-yellow">
           Indosat 
           081545857950
         </p>
@@ -38,7 +39,7 @@ return(
         My Email
       </p>
     </div>
-    <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg">
+    <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg dark:text-yellow">
       panjiramadanu55@gmail.com 
     </p>
   </div>
@@ -50,10 +51,11 @@ return(
         My Address
       </p>
     </div>
-    <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg">
+    <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg dark:text-yellow">
       Jl Mulawarman Gunung Tembak Kelurahan Teritip Kota Balikpapan Timur
     </p>
   </div>
+</div>
 </div>
 </div>
 

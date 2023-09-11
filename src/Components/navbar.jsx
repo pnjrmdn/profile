@@ -59,10 +59,6 @@ const Navbar = () => {
               </div>
               <div className="hidden lg:block">
                 <div className="ml-4 flex items-center space-x-4">
-                  {/* <div x-data="{ count: 0 }">
-                    <button x-on:click="count++">Increment</button>
-                    <span x-text="count"></span>
-                  </div> */}
 
                   <span
                     className="text-primary dark:text-white hover:text-black cursor-pointer group-hover:text-yellow"
@@ -91,18 +87,10 @@ const Navbar = () => {
                     // eslint-disable-next-line react/no-unknown-property
                     x-on:click="scrollTo('portofolio')"
                   >
-                    Portofolio
+                    Certificates
                   </span>
 
-                  {/* <span
-                    className="text-primary dark:text-white hover:text-black cursor-pointer"
-                    // eslint-disable-next-line react/no-unknown-property
-                    x-data="scrollToElement()"
-                    // eslint-disable-next-line react/no-unknown-property
-                    x-on:click="scrollTo('clients')"
-                  >
-                    Clients
-                  </span> */}
+                
 
                   <span
                     className="text-primary dark:text-white hover:text-black cursor-pointer"
@@ -119,7 +107,7 @@ const Navbar = () => {
                     // eslint-disable-next-line react/no-unknown-property
                     x-data="scrollToElement()"
                     // eslint-disable-next-line react/no-unknown-property
-                    x-on:click="scrollTo('Design')"
+                    x-on:click="scrollTo('design')"
                   >
                     Design 
                   </span>
@@ -135,7 +123,7 @@ const Navbar = () => {
 
                   </span>
 
-                  <div className={`${isDarkMode ? 'dark' : ''}`}>
+                  {/* <div className={`${isDarkMode ? 'dark' : ''}`}>
                       <span
                         onClick={toggleDarkMode}
                         className="hover:bg-blue-600 dark:text-white dark:bg-slate-800 text-primary pr-4"
@@ -143,18 +131,48 @@ const Navbar = () => {
                         {isDarkMode ? 'Dark Mode : On' : 'Dark Mode : Off'}
                       </span>
 
-                  </div>
+                  </div> */}
 
-                  
-
-                  
                   
                 </div>
               </div>
+
+
+<div className={`${isDarkMode ? 'dark' : ''} `}>
+  <span
+    onClick={toggleDarkMode}
+    className="hover:bg-blue-600 dark:text-white dark:bg-slate-800 text-primary pr-4 flex items-center px-2 lg:px-0"
+  >
+    {isDarkMode ? 
+    
+    <img
+      src="/img/dark-mode.png"
+      className="w-17 h-17"
+      alt="logo image"
+    /> 
+
+    : 
+
+    <img
+    src="/img/light-mode.png"
+    className="w-17 h-17"
+    alt="logo image"
+    />
+    
+    }
+  </span>
+</div>
+
+
+           
+
+              
+                  
+                    
               <div className="lg:hidden">
                 <button
                   type="button"
-                  className="bg-gray-800 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-black hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                  className="bg-gray-800 dark:text-white inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-black hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                   onClick={toggleMobileMenu}
                   aria-controls="mobile-menu"
                   aria-expanded={isMobileMenuOpen}
@@ -199,11 +217,13 @@ const Navbar = () => {
             </div>
           </div>
 
+          
+
           <div
             className={`${isMobileMenuOpen ? "block" : "hidden"} lg:hidden`}
             id="mobile-menu"
           >
-            <div className="bg-primary divide-y divide-white divide-solid px-2 pt-2 pb-1 space-y-1 sm:px-3 text-center">
+            <div className="bg-primary dark:bg-slate divide-y divide-white divide-solid px-2 pt-2 pb-1 space-y-1 sm:px-3 text-center">
               <div>
                 <span
                   className="text-white hover:text-yellow cursor-pointer group-hover:text-yellow"
@@ -221,9 +241,9 @@ const Navbar = () => {
                   // eslint-disable-next-line react/no-unknown-property
                   x-data="scrollToElement()"
                   // eslint-disable-next-line react/no-unknown-property
-                  x-on:click="scrollTo('Services')"
+                  x-on:click="scrollTo('services')"
                 >
-                  Services
+                  Roles
                 </span> 
               </div>
              <div>
@@ -234,20 +254,10 @@ const Navbar = () => {
                   // eslint-disable-next-line react/no-unknown-property
                   x-on:click="scrollTo('portofolio')"
                 >
-                  Portofolio
+                  Certificates
                 </span>
              </div>
-              <div>
-                <span
-                  className="text-white hover:text-yellow cursor-pointer group-hover:text-yellow"
-                  // eslint-disable-next-line react/no-unknown-property
-                  x-data="scrollToElement()"
-                  // eslint-disable-next-line react/no-unknown-property
-                  x-on:click="scrollTo('clients')"
-                >
-                  Clients
-                </span>
-              </div>
+              
              <div>
               <span
                   className="text-white hover:text-yellow cursor-pointer group-hover:text-yellow"
@@ -259,24 +269,14 @@ const Navbar = () => {
                   Experience
                 </span>
              </div>
+             
               <div>
                 <span
                   className="text-white hover:text-yellow cursor-pointer group-hover:text-yellow"
                   // eslint-disable-next-line react/no-unknown-property
                   x-data="scrollToElement()"
                   // eslint-disable-next-line react/no-unknown-property
-                  x-on:click="scrollTo('statistics')"
-                >
-                  Statistics
-                </span>
-              </div>
-              <div>
-                <span
-                  className="text-white hover:text-yellow cursor-pointer group-hover:text-yellow"
-                  // eslint-disable-next-line react/no-unknown-property
-                  x-data="scrollToElement()"
-                  // eslint-disable-next-line react/no-unknown-property
-                  x-on:click="scrollTo('Design')"
+                  x-on:click="scrollTo('design')"
                 >Design 
                 </span>
               </div>
@@ -288,7 +288,7 @@ const Navbar = () => {
                   // eslint-disable-next-line react/no-unknown-property
                   x-on:click="scrollTo('kontak')"
                 >
-                  Contact
+                  Contact 
                 </span>
               </div>
 

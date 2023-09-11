@@ -31,13 +31,13 @@ const Profile = () => {
                 </div>
                 <div className="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0">
                   
-                  <a
+                  {/* <a
                     target="_blank"
                     rel="noopener noreferrer"
                     href="https://www.facebook.com/profile.php?id=61550097057947"
                   >
                     <i className="bx bxl-facebook-square text-2xl text-white hover:text-yellow"></i>
-                  </a>
+                  </a> */}
                   
                   <a
                     target="_blank"
@@ -86,11 +86,11 @@ const Profile = () => {
         </div>
       </div>
 
-      <div className="dark:bg-slate bg-grey-50" id="about">
+      <div className="dark:bg-slate px-10 bg-grey-50" id="about">
         <div className="container flex flex-col items-center py-16 md:py-20 lg:flex-row">
           <div className="w-full text-center sm:w-3/4 lg:w-3/5 lg:text-left">
             <h2 className="font-header text-4xl font-semibold uppercase dark:text-primary text-primary sm:text-5xl lg:text-6xl">
-              Who am I?
+              Who am I ?
             </h2>
             <h4 className="pt-6 font-header text-xl font-medium dark:text-white dark:text-white text-black sm:text-2xl lg:text-3xl">
               I'm Panji Ramadanu, Data Engineer | Web Dev
@@ -205,7 +205,7 @@ const Profile = () => {
         </h3>
 
         <div className="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3">
-          <div className="group rounded px-8 py-12 shadow hover:bg-primary transform transition-all hover:scale-105 md:mx-0">
+          <div className="group rounded px-8 py-12 shadow-2xl dark:shadow-slate dark:shadow-xl hover:bg-primary transform transition-all hover:scale-105 md:mx-0">
             <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
 
               <div className="hidden group-hover:block dark:block">
@@ -221,21 +221,6 @@ const Profile = () => {
                 />
               </div>
 
-              {/* {isDarkMode ? (
-                <div className="hidden group-hover:block">
-                <img
-                  src="/img/icon-development-white.svg"
-                  alt="development icon"
-                />
-              </div>
-              ) : (
-                <div className="block group-hover:hidden">
-                <img
-                  src="/img/icon-development-black.svg"
-                  alt="development icon"
-                />
-              </div> 
-              )} */}
 
 
             </div>
@@ -249,7 +234,7 @@ const Profile = () => {
             </div>
           </div>
 
-          <div className="group rounded px-8 py-12 shadow hover:bg-primary">
+          <div className="group rounded px-8 py-12 shadow-2xl dark:shadow-lg dark:shadow-slate hover:bg-primary hover:bg-primary transform transition-all hover:scale-105 md:mx-0">
             <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
               <div className="hidden group-hover:block dark:block">
                 <img
@@ -265,7 +250,7 @@ const Profile = () => {
               </div>
             </div>
             <div className="text-center">
-              <h3 className="pt-8 text-lg font-semibold uppercase dark:text-yellow text-primary group-hover:text-yellow lg:text-xl">
+              <h3 className="pt-8 text-lg font-semibold uppercase dark:text-yellow text-primary group-hover:text-yellow lg:text-xl hover:bg-primary transform transition-all hover:scale-105 md:mx-0">
                 Data Engineer
               </h3>
               <p className="text-grey dark:text-white pt-4 text-sm group-hover:text-white md:text-base">
@@ -273,7 +258,7 @@ const Profile = () => {
               </p>
             </div>
           </div>
-          <div className="group rounded px-8 py-12 shadow hover:bg-primary">
+          <div className="group rounded px-8 py-12 shadow-2xl dark:shadow-lg dark:shadow-slate hover:bg-primary hover:bg-primary transform transition-all hover:scale-105 md:mx-0">
             <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
               <div className="hidden group-hover:block dark:block">
                 <img
@@ -289,7 +274,7 @@ const Profile = () => {
               </div>
             </div>
             <div className="text-center">
-              <h3 className="pt-8 text-lg font-semibold uppercase dark:text-yellow text-primary group-hover:text-yellow lg:text-xl">
+              <h3 className="pt-8 text-lg font-semibold uppercase dark:text-yellow text-primary group-hover:text-yellow lg:text-xl ">
                 Data analyst
               </h3>
               <p className="text-grey dark:text-white pt-4 text-sm group-hover:text-white md:text-base">
@@ -297,7 +282,7 @@ const Profile = () => {
               </p>
             </div>
           </div>
-          <div className="group rounded px-8 py-12 shadow hover:bg-primary">
+          <div className="group rounded px-8 py-12 shadow-2xl dark:shadow-lg dark:shadow-slate hover:bg-primary hover:bg-primary transform transition-all hover:scale-105 md:mx-0">
             <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
               <div className="hidden group-hover:block dark:block">
                 <img
@@ -321,7 +306,7 @@ const Profile = () => {
               </p>
             </div>
           </div>
-          <div className="group rounded px-8 py-12 shadow hover:bg-primary">
+          <div className="group rounded px-8 py-12 shadow-2xl dark:shadow-lg dark:shadow-slate hover:bg-primary hover:bg-primary transform transition-all hover:scale-105 md:mx-0">
             <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
               <div className="hidden group-hover:block dark:block">
                 <img src="/img/icon-design-white.svg" alt="Theme Design icon" />
@@ -339,7 +324,7 @@ const Profile = () => {
               </p>
             </div>
           </div>
-          <div className="group rounded px-8 py-12 shadow hover:bg-primary">
+          <div className="group rounded px-8 py-12 shadow-2xl dark:shadow-lg dark:shadow-slate hover:bg-primary hover:bg-primary transform transition-all hover:scale-105 md:mx-0">
             <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
               <div className="hidden group-hover:block dark:block">
                 <img
@@ -359,79 +344,101 @@ const Profile = () => {
                 UI/UX Designer
               </h3>
               <p className="text-grey dark:text-white  pt-4 text-sm group-hover:text-white md:text-base">
-              Focus on enhancing the user experience of websites and applications
+              Focus on enhancing the user experience of websites and applications.
               </p>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="dark:bg-slate container py-16 md:py-20" id="portofolio">
-        <h2 className="dark:bg-slate text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
-          Check out my Portofolio
+      <div className="dark:bg-slate2nd container py-16 md:py-20" id="portofolio">
+        <h2 className=" text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
+          Check out my Certificates
         </h2>
         <h3 className="pt-6 text-center font-header text-xl font-medium dark:text-white text-black sm:text-2xl lg:text-3xl">
-          Here's what I have done in the past
+          Here's what I have done in the past, get more on Linkedin
         </h3>
 
-        <div className="dark:bg-slate mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2">
+        <div className=" mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2">
           <a
-            href="/"
+            href="#0"
             className="mx-auto transform transition-all hover:scale-105 md:mx-0"
           >
             <img
-              src="/img/portfolio-apple.jpeg"
-              className="w-full shadow"
+              src="/img/sc1.png"
+              className="w-full shadow-2xl dark:shadow-2xl dark:shadow-black"
               alt="portfolio image"
             />
           </a>
           <a
-            href="/"
+           href="#0"
             className="mx-auto transform transition-all hover:scale-105 md:mx-0"
           >
             <img
-              src="/img/portfolio-stripe.jpeg"
-              className="w-full shadow"
+              src="/img/sc2.png"
+              className="w-full shadow-2xl dark:shadow-2xl dark:shadow-black"
               alt="portfolio image"
             />
           </a>
           <a
-            href="/"
+           href="#0"
             className="mx-auto transform transition-all hover:scale-105 md:mx-0"
           >
             <img
-              src="/img/portfolio-fedex.jpeg"
-              className="w-full shadow"
+              src="/img/sc3.png"
+              className="w-full shadow-2xl dark:shadow-2xl dark:shadow-black"
+              alt="portfolio image"
+            />
+          </a>
+          
+          <a
+           href="#0"
+            className="mx-auto transform transition-all hover:scale-105 md:mx-0"
+          >
+            <img
+              src="/img/sc5.png"
+              className="w-full shadow-2xl dark:shadow-2xl dark:shadow-black"
               alt="portfolio image"
             />
           </a>
           <a
-            href="/"
+           href="#0"
             className="mx-auto transform transition-all hover:scale-105 md:mx-0"
           >
             <img
-              src="/img/portfolio-microsoft.jpeg"
-              className="w-full shadow"
+              src="/img/sc6.png"
+              className="w-full shadow-2xl dark:shadow-2xl dark:shadow-black"
+              alt="portfolio image"
+            />
+          </a>
+
+          <a
+           href="#0"
+            className="mx-auto transform transition-all hover:scale-105 md:mx-0"
+          >
+            <img
+              src="/img/sc4.png"
+              className="w-full shadow-2xl dark:shadow-2xl dark:shadow-black"
               alt="portfolio image"
             />
           </a>
         </div>
       </div>
 
-      <div className="bg-grey-50 dark:bg-slate2nd" id="clients">
+      <div className="bg-grey-50 dark:bg-slate2nd"  id="clients">
         {/* <div className="container py-16 md:py-20"> */}
-        <div className="mx-auto w-full sm:w-3/4 lg:w-full">
-          <h2 className="dark:text-yellow text-center font-header text-4xl pt-10 font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
-          the last thing I did
+        <div className="mx-auto w-full sm:w-3/4 lg:w-full ">
+          <h2 className="dark:text-yellow text-center font-header pb-10 sm:pb-10 md:pb-10 px-10 text-4xl pt-10 font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
+          the last thing I did 
           </h2>
 
           {/* part top  */}
           <div
-            className="bg-cover bg-top bg-no-repeat md:py-10 lg:pt-10"
+            className="bg-cover bg-top bg-no-repeat sm:pb-10 md:pb-10 lg:pt-10"
             id="statistics"
           >
-            <div className="container">
-              <div className="mx-auto w-5/6 bg-white dark:bg-slate py-16 shadow md:w-11/12 lg:py-20 xl:py-24 2xl:w-full">
+            <div className="container ">
+              <div className="mx-auto dark:shadow-black dark:shadow-2xl w-5/6 bg-white dark:bg-slate py-16 shadow md:w-11/12 lg:py-20 xl:py-24 2xl:w-full">
                 <div className="grid grid-cols-2 gap-5 md:gap-8 xl:grid-cols-4 xl:gap-5">
                   <div className="flex flex-col items-center justify-center text-center md:flex-row md:text-left">
                     <div>
