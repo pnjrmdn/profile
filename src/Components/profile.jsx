@@ -468,7 +468,16 @@ const Profile = () => {
               <div className="mx-auto dark:shadow-black dark:shadow-2xl w-5/6 bg-white dark:bg-slate py-16 shadow md:w-11/12 lg:py-20 xl:py-24 2xl:w-full">
                 <div className="grid grid-cols-2 gap-5 md:gap-8 xl:grid-cols-4 xl:gap-5">
                   <div className="mt-6 flex flex-col items-center justify-center text-center md:mt-10 md:flex-row md:text-left lg:mt-0">
-                    <div>
+
+                  <div className="dark:block">
+                      <img
+                        src="/img/icon-project-white.svg"
+                        className="dark:mx-auto dark:h-20 dark:w-auto dark:md:h-20 dark:block"
+                        alt="icon project"
+                      />
+                    </div>
+
+                    <div className="dark:hidden">
                       <img
                         src="/img/icon-project.svg"
                         className="mx-auto h-20 w-auto md:h-20 dark:hidden"
@@ -476,13 +485,6 @@ const Profile = () => {
                       />
                     </div>
 
-                    <div>
-                      <img
-                        src="/img/icon-project-white.svg"
-                        className="dark:mx-auto dark:h-20 dark:w-auto dark:md:h-20 dark:block"
-                        alt="icon project"
-                      />
-                    </div>
 
                     <div className="pt-5 md:pl-5 md:pt-0">
                       <h1 className="font-body text-2xl font-bold text-primary md:text-4xl">
@@ -495,20 +497,24 @@ const Profile = () => {
                   </div>
 
                   <div className="mt-6 flex flex-col items-center justify-center text-center md:mt-10 md:flex-row md:text-left lg:mt-0">
-                    <div>
-                      <img
-                        src="/img/icon-award.svg"
-                        className="mx-auto h-20 w-auto md:h-20 dark:hidden"
-                        alt="icon happy clients"
-                      />
-                    </div>
-                    <div>
+
+                  <div className="dark:block">
                     <img
                         src="/img/icon-award-white.svg"
                         className="dark:mx-auto dark:h-20 dark:w-auto dark:md:h-20 dark:block"
                         alt="icon happy clients"
                       />
                     </div>
+
+                    <div className="dark:hidden">
+                      <img
+                        src="/img/icon-award.svg"
+                        className="mx-auto h-20 w-auto md:h-20 dark:hidden"
+                        alt="icon happy clients"
+                      />
+                    </div>
+
+                    
                     <div className="pt-5 md:pl-5 md:pt-0">
                       <h1 className="font-body text-2xl font-bold text-primary md:text-4xl">
                         2
@@ -520,20 +526,24 @@ const Profile = () => {
                   </div>
 
                   <div className="mt-6 flex flex-col items-center justify-center text-center md:mt-10 md:flex-row md:text-left lg:mt-0">
-                    <div>
+
+                  <div className="dark:block">
+                      <img
+                          src="/img/icon-happy-white.svg"
+                          className="dark:mx-auto dark:h-20 dark:w-auto dark:md:h-20 dark:block"
+                          alt="icon happy clients"
+                        />
+                    </div>
+
+                    <div className="dark:hidden">
                       <img
                         src="/img/icon-happy.svg"
                         className="mx-auto h-20 w-auto md:h-20 dark:hidden"
                         alt="icon happy clients"
                       />
                     </div>
-                    <div>
-                    <img
-                        src="/img/icon-happy-white.svg"
-                        className="dark:mx-auto dark:h-20 dark:w-auto dark:md:h-20 dark:block"
-                        alt="icon happy clients"
-                      />
-                    </div>
+
+
                     <div className="pt-5 md:pl-5 md:pt-0">
                       <h1 className="font-body text-2xl font-bold text-primary md:text-4xl">
                         8
@@ -545,22 +555,23 @@ const Profile = () => {
                   </div>
 
                   <div className="mt-6 flex flex-col items-center justify-center text-center md:mt-10 md:flex-row md:text-left lg:mt-0">
-                    <div>
+
+                    <div className="dark:block">
+                      <img
+                        src="/img/icon-puzzle-white.svg"
+                        className="dark:mx-auto dark:h-20 dark:w-auto dark:md:h-20 dark:block"
+                        alt="icon puzzle"
+                      />
+                    </div>
+
+                    <div className="dark:hidden">
                     <img
                         src="/img/icon-puzzle.svg"
                         className="mx-auto h-20 w-auto md:h-20 dark:hidden"
                         alt="icon puzzle"
                       />
                     </div>
-                    <div>
-                      
-                      <img
-                        src="/img/icon-puzzle-white.svg"
-                        className="dark:mx-auto dark:h-20 dark:w-auto dark:md:h-20 dark:block"
-                        alt="icon puzzle"
-                      />
-                      
-                    </div>
+
                     <div className="pt-5 md:pl-5 md:pt-0">
                       <h1 className="font-body text-2xl font-bold text-primary md:text-4xl">
                         87
