@@ -36,7 +36,7 @@ const Journey = () => {
                                         <div className="pt-2">
                                             <span className="dark:text-white block font-body text-black">
                                             <b>Telkomsel under PT Infomedia Nusantara</b> <br />
-                                            Contract 
+                                            Perform server OS updates and server management tasks such as closing open ports, monitoring server task for stopping resource-intensive processes, setting up data delivery pipelines between servers using jenkins, providing ETL data with shell scripting and python code, providing document data for FTP/SFTP networks ready access. 
                                             </span>
                                         </div>
                                     </div>
@@ -68,7 +68,7 @@ const Journey = () => {
                                         <div className="pt-2">
                                             <span className="dark:text-white block font-body text-black">
                                              <b>PT Surabya Global Medika</b> <br />
-                                             Project - Web Application Product Liisting and Company Profile
+                                             Project - Develop website company profile and listing product for company using wordpress
                                             </span>
                                         </div>
                                     </div>
@@ -102,7 +102,9 @@ const Journey = () => {
                                         <div className="pt-2">
                                             <span className="dark:text-white block font-body text-black">
                                             <b>Dinas Penanaman Modal dan Pelayanan Terpadu</b> <br />
-                                            Contract
+                                            At The Balikpapan Investment and Integrated Licensing Service (DPMPT) Office
+                                            Work as an IT Officer for the Support System and Document Administration.
+                                            I am currently working on the development of the Project Website Information System Application.
 
                                             </span>
                                         </div>
@@ -111,6 +113,8 @@ const Journey = () => {
                             </div>
                         </div>
                     </div>
+
+                    
 
 
                     <div className="mt-8 flex flex-col text-center md:flex-row md:text-left">
@@ -137,7 +141,7 @@ const Journey = () => {
                                         <div className="pt-2">
                                             <span className="dark:text-white block font-body text-black">
                                                 <b>Dinas Pertanian Kota Balikpapan</b> <br />
-                                                Project - Web Application Agricultural Group Data Information System
+                                                Project - At The Balikpapan Agriculture Department (Final Project) developed the SIMPONI project (Farmers' Group Information System) for managing agricultural data of farmers' groups
                                             </span>
                                         </div>
                                     </div>
@@ -145,6 +149,10 @@ const Journey = () => {
                             </div>
                         </div>
                     </div>
+
+                    
+
+                   
 
                     <div className="mt-8 flex flex-col text-center md:flex-row md:text-left">
                         <div className="md:w-2/5">
@@ -165,12 +173,13 @@ const Journey = () => {
                                 <div className="mt-1 flex">
                                     <i className="bx bxs-right-arrow hidden text-primary dark:text-yellow md:block"></i>
                                     <div className="md:-mt-1 md:pl-8">
-                                        <span className="block font-body font-bold text-grey-40"> Jun 2019 - Jul 2019 · 2 mos </span>
+                                        <span className="block font-body font-bold text-grey-40">Jun 2019 - Jul 2019 · 2 mos</span>
                                         <span className="block pt-2 font-header text-xl font-bold uppercase dark:text-yellow text-primary">UI/UX</span>
                                         <div className="pt-2">
                                             <span className="dark:text-white block font-body text-black">
                                             <b>RSKD (Dr. Kanujoso Djatiwibowo)</b> <br />
-                                            Internship - Created document SRS, SDD, STD and Prototype
+                                            Internship - Created document Software Requirements Specification, Software Design Document, Software Test Document and Prototype
+
                                             </span>
                                         </div>
                                     </div>
@@ -178,6 +187,9 @@ const Journey = () => {
                             </div>
                         </div>
                     </div>
+
+
+                    
 
                     <div className="mt-8 flex flex-col text-center md:flex-row md:text-left">
                         <div className="md:w-2/5">
@@ -202,6 +214,7 @@ const Journey = () => {
                                         <span className="block pt-2 font-header text-xl font-bold uppercase dark:text-yellow text-primary">Freelance</span>
                                         <div className="pt-2">
                                             <span className="dark:text-white block font-body text-black">
+                                            <b>www.fiverr.com</b> <br />
                                             Freelance on Fiverr fo make WPAP (Wedha Pop Art Potrait) & Illustration use Corel Draw 
 
                                             </span>
@@ -211,6 +224,7 @@ const Journey = () => {
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
 
@@ -336,7 +350,7 @@ const Journey = () => {
                                 Vector Art
                                 </span>
                                 <span className="dark:text-white block pt-2 font-body text-grey-20">
-                                Female Model From The City of Yogyakartaa
+                                Female Model From The City of Yogyakarta
                                 </span>
                                 
                             </div>

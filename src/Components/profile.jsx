@@ -380,6 +380,18 @@ const Profile = () => {
               alt="portfolio image"
             />
           </a>
+
+          <a
+           href="#0"
+            className="mx-auto transform transition-all hover:scale-105 md:mx-0"
+          >
+            <img
+              src="/img/sc6.png"
+              className="w-full shadow-2xl dark:shadow-2xl dark:shadow-black"
+              alt="portfolio image"
+            />
+          </a>
+
           <a
            href="#0"
             className="mx-auto transform transition-all hover:scale-105 md:mx-0"
@@ -401,12 +413,13 @@ const Profile = () => {
               alt="portfolio image"
             />
           </a>
+
           <a
            href="#0"
             className="mx-auto transform transition-all hover:scale-105 md:mx-0"
           >
             <img
-              src="/img/sc6.png"
+              src="/img/sc7.png"
               className="w-full shadow-2xl dark:shadow-2xl dark:shadow-black"
               alt="portfolio image"
             />
@@ -422,6 +435,20 @@ const Profile = () => {
               alt="portfolio image"
             />
           </a>
+
+          <a
+           href="#0"
+            className="mx-auto transform transition-all hover:scale-105 md:mx-0"
+          >
+            <img
+              src="/img/sc8.png"
+              className="w-full shadow-2xl dark:shadow-2xl dark:shadow-black"
+              alt="portfolio image"
+            />
+          </a>
+
+
+          
         </div>
       </div>
 
@@ -440,11 +467,11 @@ const Profile = () => {
             <div className="container ">
               <div className="mx-auto dark:shadow-black dark:shadow-2xl w-5/6 bg-white dark:bg-slate py-16 shadow md:w-11/12 lg:py-20 xl:py-24 2xl:w-full">
                 <div className="grid grid-cols-2 gap-5 md:gap-8 xl:grid-cols-4 xl:gap-5">
-                  <div className="flex flex-col items-center justify-center text-center md:flex-row md:text-left">
+                  <div className="mt-6 flex flex-col items-center justify-center text-center md:mt-10 md:flex-row md:text-left lg:mt-0">
                     <div>
                       <img
                         src="/img/icon-project.svg"
-                        className="mx-auto h-12 w-auto md:h-20 dark:hidden"
+                        className="mx-auto h-20 w-auto md:h-20 dark:hidden"
                         alt="icon project"
                       />
                     </div>
@@ -467,17 +494,19 @@ const Profile = () => {
                     </div>
                   </div>
 
-                  <div className="flex flex-col items-center justify-center text-center md:flex-row md:text-left">
-                       <img
-                        src="/img/icon-award.svg"
-                        className="mx-auto h-12 w-auto md:h-20 dark:hidden"
-                        alt="icon award"
-                      />
-                      <div>
+                  <div className="mt-6 flex flex-col items-center justify-center text-center md:mt-10 md:flex-row md:text-left lg:mt-0">
+                    <div>
                       <img
+                        src="/img/icon-award.svg"
+                        className="mx-auto h-20 w-auto md:h-20 dark:hidden"
+                        alt="icon happy clients"
+                      />
+                    </div>
+                    <div>
+                    <img
                         src="/img/icon-award-white.svg"
                         className="dark:mx-auto dark:h-20 dark:w-auto dark:md:h-20 dark:block"
-                        alt="icon award"
+                        alt="icon happy clients"
                       />
                     </div>
                     <div className="pt-5 md:pl-5 md:pt-0">
@@ -485,7 +514,7 @@ const Profile = () => {
                         2
                       </h1>
                       <h4 className="text-grey-dark dark:text-white font-header text-base font-medium leading-loose md:text-xl">
-                        Awards Won
+                        Award Won
                       </h4>
                     </div>
                   </div>
@@ -494,7 +523,7 @@ const Profile = () => {
                     <div>
                       <img
                         src="/img/icon-happy.svg"
-                        className="mx-auto h-12 w-auto md:h-20 dark:hidden"
+                        className="mx-auto h-20 w-auto md:h-20 dark:hidden"
                         alt="icon happy clients"
                       />
                     </div>
@@ -510,7 +539,7 @@ const Profile = () => {
                         8
                       </h1>
                       <h4 className="text-grey-dark dark:text-white font-header text-base font-medium leading-loose md:text-xl">
-                        Happy Clients
+                      Total Clients
                       </h4>
                     </div>
                   </div>
@@ -519,7 +548,7 @@ const Profile = () => {
                     <div>
                     <img
                         src="/img/icon-puzzle.svg"
-                        className="mx-auto h-12 w-auto md:h-20 dark:hidden"
+                        className="mx-auto h-20 w-auto md:h-20 dark:hidden"
                         alt="icon puzzle"
                       />
                     </div>
@@ -543,7 +572,7 @@ const Profile = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> <br /> <br />
 
             {/* <div className="flex flex-wrap items-center justify-center pt-4 sm:pt-4">
               <span className="m-8 block">

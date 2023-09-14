@@ -21,9 +21,9 @@ const Footer = () => {
                             <i className="bx bxl-instagram text-2xl text-white hover:text-yellow"></i>
                         </a> 
 
-                        <p className="text-center font-body text-white md:text-left">
-                        ㅤㅤ© Copyright 2023. All right reserved, @pnj.quagmire
-                    </p>
+                        {/* <p className="text-center font-body text-white md:text-left">
+                        ㅤㅤ© Copyright 2023
+                    </p> */}
                     </div>
                 </div>
             </div>

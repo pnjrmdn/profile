@@ -162,14 +162,8 @@ const Navbar = () => {
     }
   </span>
 </div>
-
-
-           
-
-              
-                  
-                    
-              <div className="lg:hidden">
+ 
+          <div className="lg:hidden">
                 <button
                   type="button"
                   className="bg-gray-800 dark:text-white inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-black hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
@@ -212,13 +206,13 @@ const Navbar = () => {
                       d="M6 18L18 6M6 6l12 12"
                     />
                   </svg>
+                  
                 </button>
               </div>
             </div>
           </div>
 
           
-
           <div
             className={`${isMobileMenuOpen ? "block" : "hidden"} lg:hidden`}
             id="mobile-menu"
@@ -231,6 +225,7 @@ const Navbar = () => {
                   x-data="scrollToElement()"
                   // eslint-disable-next-line react/no-unknown-property
                   x-on:click="scrollTo('about')"
+                  onClick={toggleMobileMenu}
                 >
                   About
                 </span> 
@@ -242,6 +237,7 @@ const Navbar = () => {
                   x-data="scrollToElement()"
                   // eslint-disable-next-line react/no-unknown-property
                   x-on:click="scrollTo('services')"
+                  onClick={toggleMobileMenu}
                 >
                   Roles
                 </span> 
@@ -253,6 +249,7 @@ const Navbar = () => {
                   x-data="scrollToElement()"
                   // eslint-disable-next-line react/no-unknown-property
                   x-on:click="scrollTo('portofolio')"
+                  onClick={toggleMobileMenu}
                 >
                   Certificates
                 </span>
@@ -265,6 +262,7 @@ const Navbar = () => {
                   x-data="scrollToElement()"
                   // eslint-disable-next-line react/no-unknown-property
                   x-on:click="scrollTo('work')"
+                  onClick={toggleMobileMenu}
                 >
                   Experience
                 </span>
@@ -277,6 +275,7 @@ const Navbar = () => {
                   x-data="scrollToElement()"
                   // eslint-disable-next-line react/no-unknown-property
                   x-on:click="scrollTo('design')"
+                  onClick={toggleMobileMenu}
                 >Design 
                 </span>
               </div>
@@ -287,6 +286,7 @@ const Navbar = () => {
                   x-data="scrollToElement()"
                   // eslint-disable-next-line react/no-unknown-property
                   x-on:click="scrollTo('kontak')"
+                  onClick={toggleMobileMenu}
                 >
                   Contact 
                 </span>
