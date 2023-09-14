@@ -336,7 +336,7 @@ const Journey = () => {
                                 Vector Art
                                 </span>
                                 <span className="dark:text-white block pt-2 font-body text-grey-20">
-                                Female Model From The City of Yogyakarta
+                                Female Model From The City of Yogyakartaa
                                 </span>
                                 
                             </div>
