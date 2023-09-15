@@ -205,7 +205,7 @@ const Profile = () => {
         </h3>
 
         <div className="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3">
-          <div className="group rounded px-8 py-12 shadow-2xl dark:shadow-slate dark:shadow-xl hover:bg-primary transform transition-all hover:scale-105 md:mx-0">
+          <div className="dark:bg-slate group rounded px-8 py-12 shadow-2xl dark:shadow-slate dark:shadow-xl hover:bg-primary transform transition-all hover:scale-105 md:mx-0">
             <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
 
               <div className="hidden group-hover:block dark:block">
@@ -222,7 +222,6 @@ const Profile = () => {
               </div>
 
 
-
             </div>
             <div className="text-center">
               <h3 className="pt-8 text-lg font-semibold uppercase dark:text-yellow text-primary group-hover:text-yellow lg:text-xl">
@@ -234,7 +233,7 @@ const Profile = () => {
             </div>
           </div>
 
-          <div className="group rounded px-8 py-12 shadow-2xl dark:shadow-lg dark:shadow-slate hover:bg-primary hover:bg-primary transform transition-all hover:scale-105 md:mx-0">
+          <div className="dark:bg-slate group rounded px-8 py-12 shadow-2xl dark:shadow-lg dark:shadow-slate hover:bg-primary hover:bg-primary transform transition-all hover:scale-105 md:mx-0">
             <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
               <div className="hidden group-hover:block dark:block">
                 <img
@@ -258,7 +257,7 @@ const Profile = () => {
               </p>
             </div>
           </div>
-          <div className="group rounded px-8 py-12 shadow-2xl dark:shadow-lg dark:shadow-slate hover:bg-primary hover:bg-primary transform transition-all hover:scale-105 md:mx-0">
+          <div className="dark:bg-slate group rounded px-8 py-12 shadow-2xl dark:shadow-lg dark:shadow-slate hover:bg-primary hover:bg-primary transform transition-all hover:scale-105 md:mx-0">
             <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
               <div className="hidden group-hover:block dark:block">
                 <img
@@ -282,7 +281,7 @@ const Profile = () => {
               </p>
             </div>
           </div>
-          <div className="group rounded px-8 py-12 shadow-2xl dark:shadow-lg dark:shadow-slate hover:bg-primary hover:bg-primary transform transition-all hover:scale-105 md:mx-0">
+          <div className="dark:bg-slate group rounded px-8 py-12 shadow-2xl dark:shadow-lg dark:shadow-slate hover:bg-primary hover:bg-primary transform transition-all hover:scale-105 md:mx-0">
             <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
               <div className="hidden group-hover:block dark:block">
                 <img
@@ -306,7 +305,7 @@ const Profile = () => {
               </p>
             </div>
           </div>
-          <div className="group rounded px-8 py-12 shadow-2xl dark:shadow-lg dark:shadow-slate hover:bg-primary hover:bg-primary transform transition-all hover:scale-105 md:mx-0">
+          <div className="dark:bg-slate group rounded px-8 py-12 shadow-2xl dark:shadow-lg dark:shadow-slate hover:bg-primary hover:bg-primary transform transition-all hover:scale-105 md:mx-0">
             <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
               <div className="hidden group-hover:block dark:block">
                 <img src="/img/icon-design-white.svg" alt="Theme Design icon" />
@@ -324,7 +323,7 @@ const Profile = () => {
               </p>
             </div>
           </div>
-          <div className="group rounded px-8 py-12 shadow-2xl dark:shadow-lg dark:shadow-slate hover:bg-primary hover:bg-primary transform transition-all hover:scale-105 md:mx-0">
+          <div className="dark:bg-slate group rounded px-8 py-12 shadow-2xl dark:shadow-lg dark:shadow-slate hover:bg-primary hover:bg-primary transform transition-all hover:scale-105 md:mx-0">
             <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
               <div className="hidden group-hover:block dark:block">
                 <img
@@ -469,23 +468,24 @@ const Profile = () => {
                 <div className="grid grid-cols-2 gap-5 md:gap-8 xl:grid-cols-4 xl:gap-5">
                   <div className="mt-6 flex flex-col items-center justify-center text-center md:mt-10 md:flex-row md:text-left lg:mt-0">
 
-                  <div className="dark:block">
+                 
+
+                  <div className="hidden dark:block">
                       <img
                         src="/img/icon-project-white.svg"
                         className="dark:mx-auto dark:h-20 dark:w-auto dark:md:h-20 dark:block"
-                        alt="icon project"
+                        // alt="icon project"
                       />
                     </div>
 
-                    <div className="dark:hidden">
+                    <div className="block dark:hidden">
                       <img
                         src="/img/icon-project.svg"
                         className="mx-auto h-20 w-auto md:h-20 dark:hidden"
-                        alt="icon project"
+                        // alt="icon project"
                       />
                     </div>
-
-
+                    
                     <div className="pt-5 md:pl-5 md:pt-0">
                       <h1 className="font-body text-2xl font-bold text-primary md:text-4xl">
                         12
@@ -498,19 +498,19 @@ const Profile = () => {
 
                   <div className="mt-6 flex flex-col items-center justify-center text-center md:mt-10 md:flex-row md:text-left lg:mt-0">
 
-                  <div className="dark:block">
+                  <div className="hidden dark:block">
                     <img
                         src="/img/icon-award-white.svg"
                         className="dark:mx-auto dark:h-20 dark:w-auto dark:md:h-20 dark:block"
-                        alt="icon happy clients"
+                        // alt="icon happy clients"
                       />
                     </div>
 
-                    <div className="dark:hidden">
+                    <div className="block dark:hidden">
                       <img
                         src="/img/icon-award.svg"
                         className="mx-auto h-20 w-auto md:h-20 dark:hidden"
-                        alt="icon happy clients"
+                        // alt="icon happy clients"
                       />
                     </div>
 
@@ -527,19 +527,19 @@ const Profile = () => {
 
                   <div className="mt-6 flex flex-col items-center justify-center text-center md:mt-10 md:flex-row md:text-left lg:mt-0">
 
-                  <div className="dark:block">
+                  <div className="hidden dark:block">
                       <img
                           src="/img/icon-happy-white.svg"
                           className="dark:mx-auto dark:h-20 dark:w-auto dark:md:h-20 dark:block"
-                          alt="icon happy clients"
+                          // alt="icon happy clients"
                         />
                     </div>
 
-                    <div className="dark:hidden">
+                    <div className="block dark:hidden">
                       <img
                         src="/img/icon-happy.svg"
                         className="mx-auto h-20 w-auto md:h-20 dark:hidden"
-                        alt="icon happy clients"
+                        // alt="icon happy clients"
                       />
                     </div>
 
@@ -556,19 +556,19 @@ const Profile = () => {
 
                   <div className="mt-6 flex flex-col items-center justify-center text-center md:mt-10 md:flex-row md:text-left lg:mt-0">
 
-                    <div className="dark:block">
+                    <div className="hidden dark:block">
                       <img
                         src="/img/icon-puzzle-white.svg"
                         className="dark:mx-auto dark:h-20 dark:w-auto dark:md:h-20 dark:block"
-                        alt="icon puzzle"
+                        // alt="icon puzzle"
                       />
                     </div>
 
-                    <div className="dark:hidden">
+                    <div className="block dark:hidden">
                     <img
                         src="/img/icon-puzzle.svg"
                         className="mx-auto h-20 w-auto md:h-20 dark:hidden"
-                        alt="icon puzzle"
+                        // alt="icon puzzle"
                       />
                     </div>
 
