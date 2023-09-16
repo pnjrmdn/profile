@@ -8,7 +8,7 @@ const Footer = () => {
                         {/* <a href="https://www.facebook.com/profile.php?id=61550097057947"  Target="_blank" className="pl-4">
                             <i className="bx bxl-facebook-square text-2xl text-white hover:text-yellow"></i>
                         </a> */}
-                        <a href="https://twitter.com/panji55_" Target="_blank" className="pl-4">
+                        {/* <a href="https://twitter.com/panji55_" Target="_blank" className="pl-4">
                             <i className="bx bxl-twitter text-2xl text-white hover:text-yellow"></i>
                         </a>
                         <a href="https://www.behance.net/panjiramad3bba" Target="_blank" className="pl-4">
@@ -19,11 +19,9 @@ const Footer = () => {
                         </a>
                         <a href="https://www.instagram.com/pnj.quagmire/" Target="_blank" className="pl-4">
                             <i className="bx bxl-instagram text-2xl text-white hover:text-yellow"></i>
-                        </a> 
+                        </a>  */}
 
-                        {/* <p className="text-center font-body text-white md:text-left">
-                        ㅤㅤ© Copyright 2023
-                    </p> */}
+                        <p className="font-body text-white md:text-left"> © Copyright 2023</p>
                     </div>
                 </div>
             </div>

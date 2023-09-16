@@ -29,21 +29,22 @@ const Profile = () => {
                     <i className="bx bx-chevron-right text-3xl dark:text-white text-yellow"></i>
                   </div>
                 </div>
-                <div className="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0">
-                  
+
+                <div className="flex items-center justify-center pt-5 sm:justify-start sm:pt-0">
                   {/* <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://www.facebook.com/profile.php?id=61550097057947"
+                    href="https://www.instagram.com/pnj.quagmire"
+                    className="pl-0"
                   >
-                    <i className="bx bxl-facebook-square text-2xl text-white hover:text-yellow"></i>
+                    <i className="bx bxl-instagram text-2xl text-white hover:text-yellow"></i>
                   </a> */}
-                  
+
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
                     href="https://twitter.com/panji55_"
-                    className="pl-4"
+                    className="pl-0"
                   >
                     <i className="bx bxl-twitter text-2xl text-white hover:text-yellow"></i>
                   </a>
@@ -55,6 +56,16 @@ const Profile = () => {
                   >
                     <i className="bx bxl-behance text-2xl text-white hover:text-yellow"></i>
                   </a>
+                  
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://learn.microsoft.com/en-us/users/panjiramadan-6566"
+                    className="pl-4"
+                  >
+                    <i className="bx bxl-microsoft text-2xl text-white hover:text-yellow"></i>
+                  </a>
+
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
@@ -63,14 +74,7 @@ const Profile = () => {
                   >
                     <i className="bx bxl-linkedin text-2xl text-white hover:text-yellow"></i>
                   </a>
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.instagram.com/pnj.quagmire"
-                    className="pl-4"
-                  >
-                    <i className="bx bxl-instagram text-2xl text-white hover:text-yellow"></i>
-                  </a>
+
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
@@ -79,6 +83,25 @@ const Profile = () => {
                   >
                     <i className="bx bxl-github text-2xl text-white hover:text-yellow"></i>
                   </a>
+
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.datacamp.com/portfolio/panjiramadan22"
+                    className="pl-4"
+                  >
+                    <i className="bx bx-data text-2xl text-white hover:text-yellow"></i>
+                  </a>
+
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.hackerrank.com/panjiramadanu55"
+                    className="pl-4"
+                  >
+                    <i className="bx bx-code-alt text-2xl text-white hover:text-yellow"></i>
+                  </a>
+
                 </div>
               </div>
             </div>
