@@ -17,7 +17,7 @@ const Footer = () => {
                         <a href="https://www.linkedin.com/in/panji-ramadan-since2016/" Target="_blank" className="pl-4">
                             <i className="bx bxl-linkedin text-2xl text-white hover:text-yellow"></i>
                         </a>
-                        <a href="https://www.instagram.com/pnj.quagmire/" Target="_blank" className="pl-4 pl-4">
+                        <a href="https://www.instagram.com/pnj.quagmire/" Target="_blank" className="pl-4 pl-">
                             <i className="bx bxl-instagram text-2xl text-white hover:text-yellow"></i>
                         </a>  */}
 
