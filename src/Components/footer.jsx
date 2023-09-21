@@ -18,7 +18,7 @@ const Footer = () => {
                             <i className="bx bxl-linkedin text-2xl text-white hover:text-yellow"></i>
                         </a>
                         <a href="https://www.instagram.com/pnj.quagmire/" Target="_blank" className="pl-4 pl-4">
-                            <i className="bx bxl-instagram text-2xl text-white hover:text-yellow"></i>
+                            <i className="bx bxl-instagram text-2xl text-white hover:text-white"></i>
                         </a>  */}
 
                         <p className="font-body text-white md:text-left"> © Copyright 2023</p>
